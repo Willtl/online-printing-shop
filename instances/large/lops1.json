@@ -1,0 +1,2533 @@
+{
+    "resources": [
+        {
+            "id": 1,
+            "setup_size": [
+                1,
+                5
+            ],
+            "setup_color": 4,
+            "setup_varnish": 6,
+            "availability": [
+                0,
+                38,
+                49,
+                87,
+                95,
+                133,
+                139,
+                177,
+                183,
+                221,
+                229,
+                267,
+                273,
+                311,
+                331,
+                369
+            ]
+        },
+        {
+            "id": 2,
+            "setup_size": [
+                5,
+                3
+            ],
+            "setup_color": 4,
+            "setup_varnish": 2,
+            "availability": [
+                0,
+                97,
+                115,
+                212,
+                226,
+                323,
+                335,
+                432
+            ]
+        },
+        {
+            "id": 3,
+            "setup_size": [
+                6,
+                5
+            ],
+            "setup_color": 2,
+            "setup_varnish": 1,
+            "availability": [
+                0,
+                32,
+                37,
+                69,
+                78,
+                110,
+                122,
+                154,
+                166,
+                198,
+                203,
+                235,
+                247,
+                279,
+                288,
+                320
+            ]
+        },
+        {
+            "id": 4,
+            "setup_size": [
+                3,
+                6
+            ],
+            "setup_color": 3,
+            "setup_varnish": 3,
+            "availability": [
+                0,
+                35,
+                54,
+                89,
+                99,
+                134,
+                139,
+                174,
+                180,
+                215,
+                234,
+                269,
+                274,
+                309,
+                319,
+                354,
+                360,
+                395
+            ]
+        },
+        {
+            "id": 5,
+            "setup_size": [
+                2,
+                5
+            ],
+            "setup_color": 5,
+            "setup_varnish": 4,
+            "availability": [
+                0,
+                42,
+                64,
+                106,
+                128,
+                170,
+                178,
+                220,
+                235,
+                277,
+                299,
+                341,
+                353,
+                395
+            ]
+        },
+        {
+            "id": 6,
+            "setup_size": [
+                5,
+                4
+            ],
+            "setup_color": 1,
+            "setup_varnish": 2,
+            "availability": [
+                0,
+                28,
+                39,
+                67,
+                72,
+                100,
+                115,
+                143,
+                149,
+                177,
+                183,
+                211,
+                226,
+                254,
+                269,
+                297,
+                303,
+                331
+            ]
+        },
+        {
+            "id": 7,
+            "setup_size": [
+                4,
+                1
+            ],
+            "setup_color": 5,
+            "setup_varnish": 5,
+            "availability": [
+                0,
+                76,
+                115,
+                191,
+                202,
+                278,
+                288,
+                364
+            ]
+        },
+        {
+            "id": 8,
+            "setup_size": [
+                1,
+                5
+            ],
+            "setup_color": 2,
+            "setup_varnish": 3,
+            "availability": [
+                0,
+                106,
+                125,
+                231,
+                243,
+                349
+            ]
+        },
+        {
+            "id": 9,
+            "setup_size": [
+                6,
+                4
+            ],
+            "setup_color": 1,
+            "setup_varnish": 3,
+            "availability": [
+                0,
+                27,
+                34,
+                61,
+                71,
+                98,
+                106,
+                133,
+                143,
+                170,
+                174,
+                201,
+                208,
+                235,
+                241,
+                268,
+                273,
+                300
+            ]
+        },
+        {
+            "id": 10,
+            "setup_size": [
+                6,
+                6
+            ],
+            "setup_color": 4,
+            "setup_varnish": 5,
+            "availability": [
+                0,
+                54,
+                66,
+                120,
+                132,
+                186,
+                214,
+                268,
+                276,
+                330
+            ]
+        }
+    ],
+    "jobs": [
+        {
+            "id": 1,
+            "rid": 1,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 1,
+                    "rid": 1,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 9,
+                    "color": 2,
+                    "varnish": 6,
+                    "resources": [
+                        4,
+                        2,
+                        6
+                    ],
+                    "time": [
+                        91,
+                        92,
+                        83
+                    ],
+                    "sucessors": [
+                        2,
+                        3
+                    ]
+                },
+                {
+                    "id": 2,
+                    "rid": 2,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 4,
+                    "varnish": 2,
+                    "resources": [
+                        7,
+                        1,
+                        2,
+                        5,
+                        3,
+                        4
+                    ],
+                    "time": [
+                        11,
+                        8,
+                        19,
+                        9,
+                        14,
+                        12
+                    ],
+                    "sucessors": [
+                        5,
+                        4
+                    ]
+                },
+                {
+                    "id": 3,
+                    "rid": 3,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 2,
+                    "varnish": 2,
+                    "resources": [
+                        1,
+                        6,
+                        5,
+                        7,
+                        8
+                    ],
+                    "time": [
+                        95,
+                        83,
+                        89,
+                        88,
+                        89
+                    ],
+                    "sucessors": [
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "id": 4,
+                    "rid": 4,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 1,
+                    "varnish": 2,
+                    "resources": [
+                        6,
+                        9,
+                        8,
+                        4,
+                        7,
+                        5,
+                        3
+                    ],
+                    "time": [
+                        9,
+                        5,
+                        8,
+                        6,
+                        4,
+                        4,
+                        7
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 5,
+                    "rid": 5,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 9,
+                    "color": 3,
+                    "varnish": 4,
+                    "resources": [
+                        4,
+                        1,
+                        6,
+                        7,
+                        5,
+                        8,
+                        2
+                    ],
+                    "time": [
+                        12,
+                        8,
+                        18,
+                        12,
+                        7,
+                        17,
+                        7
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "rid": 2,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 6,
+                    "rid": 6,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        5,
+                        8,
+                        4
+                    ],
+                    "time": [
+                        51,
+                        52,
+                        91
+                    ],
+                    "sucessors": [
+                        8
+                    ]
+                },
+                {
+                    "id": 7,
+                    "rid": 7,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 7,
+                    "color": 4,
+                    "varnish": 2,
+                    "resources": [
+                        6,
+                        1,
+                        7,
+                        2,
+                        3,
+                        8
+                    ],
+                    "time": [
+                        86,
+                        87,
+                        99,
+                        97,
+                        99,
+                        84
+                    ],
+                    "sucessors": [
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "id": 8,
+                    "rid": 8,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 2,
+                    "varnish": 1,
+                    "resources": [
+                        2,
+                        10,
+                        1,
+                        8,
+                        7,
+                        9,
+                        4
+                    ],
+                    "time": [
+                        75,
+                        59,
+                        67,
+                        83,
+                        92,
+                        94,
+                        77
+                    ],
+                    "sucessors": [
+                        9,
+                        10,
+                        11
+                    ]
+                },
+                {
+                    "id": 9,
+                    "rid": 9,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 4,
+                    "varnish": 6,
+                    "resources": [
+                        9,
+                        10,
+                        1,
+                        5,
+                        7,
+                        2,
+                        4
+                    ],
+                    "time": [
+                        57,
+                        46,
+                        54,
+                        77,
+                        46,
+                        88,
+                        90
+                    ],
+                    "sucessors": [
+                        13,
+                        12,
+                        14
+                    ]
+                },
+                {
+                    "id": 10,
+                    "rid": 10,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        6,
+                        9,
+                        1,
+                        3,
+                        8,
+                        10
+                    ],
+                    "time": [
+                        68,
+                        51,
+                        45,
+                        37,
+                        80,
+                        36
+                    ],
+                    "sucessors": [
+                        12,
+                        13,
+                        14
+                    ]
+                },
+                {
+                    "id": 11,
+                    "rid": 11,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 2,
+                    "color": 3,
+                    "varnish": 4,
+                    "resources": [
+                        2,
+                        3,
+                        7,
+                        10,
+                        5
+                    ],
+                    "time": [
+                        73,
+                        68,
+                        90,
+                        85,
+                        79
+                    ],
+                    "sucessors": [
+                        14,
+                        13
+                    ]
+                },
+                {
+                    "id": 12,
+                    "rid": 12,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 10,
+                    "color": 1,
+                    "varnish": 4,
+                    "resources": [
+                        4,
+                        8,
+                        5,
+                        1,
+                        6
+                    ],
+                    "time": [
+                        21,
+                        59,
+                        22,
+                        36,
+                        63
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 13,
+                    "rid": 13,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 2,
+                    "varnish": 5,
+                    "resources": [
+                        6,
+                        8,
+                        7
+                    ],
+                    "time": [
+                        12,
+                        31,
+                        14
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 14,
+                    "rid": 14,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 0.63,
+                    "size": 9,
+                    "color": 2,
+                    "varnish": 6,
+                    "resources": [
+                        9,
+                        2,
+                        3
+                    ],
+                    "time": [
+                        88,
+                        85,
+                        85
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "rid": 3,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 15,
+                    "rid": 15,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 7,
+                    "color": 3,
+                    "varnish": 6,
+                    "resources": [
+                        3,
+                        6,
+                        4,
+                        8
+                    ],
+                    "time": [
+                        82,
+                        64,
+                        92,
+                        93
+                    ],
+                    "sucessors": [
+                        18,
+                        19
+                    ]
+                },
+                {
+                    "id": 16,
+                    "rid": 16,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 2,
+                    "varnish": 3,
+                    "resources": [
+                        2,
+                        7,
+                        3,
+                        6,
+                        1,
+                        5
+                    ],
+                    "time": [
+                        58,
+                        82,
+                        46,
+                        92,
+                        96,
+                        39
+                    ],
+                    "sucessors": [
+                        18,
+                        19
+                    ]
+                },
+                {
+                    "id": 17,
+                    "rid": 17,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        2,
+                        6,
+                        1,
+                        3
+                    ],
+                    "time": [
+                        75,
+                        66,
+                        70,
+                        69
+                    ],
+                    "sucessors": [
+                        18
+                    ]
+                },
+                {
+                    "id": 18,
+                    "rid": 18,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 3,
+                    "varnish": 6,
+                    "resources": [
+                        1,
+                        10,
+                        2
+                    ],
+                    "time": [
+                        87,
+                        98,
+                        73
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 19,
+                    "rid": 19,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 1,
+                    "varnish": 2,
+                    "resources": [
+                        1,
+                        9,
+                        4,
+                        7,
+                        5
+                    ],
+                    "time": [
+                        68,
+                        75,
+                        80,
+                        65,
+                        69
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "rid": 4,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 20,
+                    "rid": 20,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 4,
+                    "varnish": 6,
+                    "resources": [
+                        1,
+                        6,
+                        8
+                    ],
+                    "time": [
+                        9,
+                        16,
+                        21
+                    ],
+                    "sucessors": [
+                        23,
+                        22,
+                        24
+                    ]
+                },
+                {
+                    "id": 21,
+                    "rid": 21,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 3,
+                    "color": 1,
+                    "varnish": 1,
+                    "resources": [
+                        5,
+                        10,
+                        9,
+                        1,
+                        3,
+                        4
+                    ],
+                    "time": [
+                        34,
+                        78,
+                        55,
+                        51,
+                        26,
+                        71
+                    ],
+                    "sucessors": [
+                        22,
+                        24
+                    ]
+                },
+                {
+                    "id": 22,
+                    "rid": 22,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 1,
+                    "varnish": 6,
+                    "resources": [
+                        6,
+                        5,
+                        7
+                    ],
+                    "time": [
+                        95,
+                        85,
+                        85
+                    ],
+                    "sucessors": [
+                        26
+                    ]
+                },
+                {
+                    "id": 23,
+                    "rid": 23,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        8,
+                        4,
+                        9,
+                        7,
+                        5,
+                        6,
+                        2
+                    ],
+                    "time": [
+                        35,
+                        25,
+                        37,
+                        41,
+                        29,
+                        29,
+                        25
+                    ],
+                    "sucessors": [
+                        25,
+                        26
+                    ]
+                },
+                {
+                    "id": 24,
+                    "rid": 24,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 9,
+                    "color": 4,
+                    "varnish": 5,
+                    "resources": [
+                        5,
+                        3,
+                        4,
+                        2,
+                        10,
+                        8
+                    ],
+                    "time": [
+                        62,
+                        81,
+                        90,
+                        85,
+                        72,
+                        89
+                    ],
+                    "sucessors": [
+                        25,
+                        26
+                    ]
+                },
+                {
+                    "id": 25,
+                    "rid": 25,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 2,
+                    "varnish": 2,
+                    "resources": [
+                        6,
+                        5,
+                        10
+                    ],
+                    "time": [
+                        59,
+                        73,
+                        32
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 26,
+                    "rid": 26,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 4,
+                    "varnish": 6,
+                    "resources": [
+                        5,
+                        8,
+                        1
+                    ],
+                    "time": [
+                        15,
+                        18,
+                        38
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "rid": 5,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 27,
+                    "rid": 27,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 7,
+                    "color": 4,
+                    "varnish": 2,
+                    "resources": [
+                        9,
+                        6,
+                        1,
+                        3
+                    ],
+                    "time": [
+                        41,
+                        68,
+                        48,
+                        44
+                    ],
+                    "sucessors": [
+                        28,
+                        29,
+                        30,
+                        31
+                    ]
+                },
+                {
+                    "id": 28,
+                    "rid": 28,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 0.68,
+                    "size": 4,
+                    "color": 4,
+                    "varnish": 4,
+                    "resources": [
+                        4,
+                        5,
+                        3,
+                        7
+                    ],
+                    "time": [
+                        74,
+                        39,
+                        28,
+                        28
+                    ],
+                    "sucessors": [
+                        33,
+                        32
+                    ]
+                },
+                {
+                    "id": 29,
+                    "rid": 29,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 3,
+                    "varnish": 6,
+                    "resources": [
+                        7,
+                        10,
+                        9,
+                        4
+                    ],
+                    "time": [
+                        11,
+                        8,
+                        8,
+                        18
+                    ],
+                    "sucessors": [
+                        32
+                    ]
+                },
+                {
+                    "id": 30,
+                    "rid": 30,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 3,
+                    "varnish": 1,
+                    "resources": [
+                        1,
+                        7,
+                        3,
+                        4
+                    ],
+                    "time": [
+                        84,
+                        92,
+                        94,
+                        99
+                    ],
+                    "sucessors": [
+                        32
+                    ]
+                },
+                {
+                    "id": 31,
+                    "rid": 31,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 7,
+                    "color": 1,
+                    "varnish": 1,
+                    "resources": [
+                        3,
+                        7,
+                        6,
+                        9,
+                        10
+                    ],
+                    "time": [
+                        97,
+                        97,
+                        97,
+                        97,
+                        97
+                    ],
+                    "sucessors": [
+                        32,
+                        33
+                    ]
+                },
+                {
+                    "id": 32,
+                    "rid": 32,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 3,
+                    "varnish": 6,
+                    "resources": [
+                        3,
+                        8,
+                        10,
+                        9,
+                        5,
+                        4,
+                        7
+                    ],
+                    "time": [
+                        44,
+                        62,
+                        52,
+                        53,
+                        79,
+                        92,
+                        69
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 33,
+                    "rid": 33,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 1,
+                    "varnish": 2,
+                    "resources": [
+                        9,
+                        5,
+                        1,
+                        3,
+                        4,
+                        2
+                    ],
+                    "time": [
+                        50,
+                        56,
+                        88,
+                        79,
+                        59,
+                        93
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "rid": 6,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 34,
+                    "rid": 34,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 2,
+                    "color": 2,
+                    "varnish": 5,
+                    "resources": [
+                        1,
+                        2,
+                        9
+                    ],
+                    "time": [
+                        64,
+                        93,
+                        42
+                    ],
+                    "sucessors": [
+                        35,
+                        36,
+                        37
+                    ]
+                },
+                {
+                    "id": 35,
+                    "rid": 35,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 3,
+                    "color": 1,
+                    "varnish": 1,
+                    "resources": [
+                        3,
+                        6,
+                        5,
+                        7
+                    ],
+                    "time": [
+                        98,
+                        98,
+                        95,
+                        95
+                    ],
+                    "sucessors": [
+                        38,
+                        39
+                    ]
+                },
+                {
+                    "id": 36,
+                    "rid": 36,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 4,
+                    "varnish": 2,
+                    "resources": [
+                        2,
+                        4,
+                        8,
+                        10,
+                        1,
+                        6,
+                        5
+                    ],
+                    "time": [
+                        98,
+                        95,
+                        95,
+                        71,
+                        65,
+                        94,
+                        67
+                    ],
+                    "sucessors": [
+                        39,
+                        38
+                    ]
+                },
+                {
+                    "id": 37,
+                    "rid": 37,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 4,
+                    "varnish": 1,
+                    "resources": [
+                        10,
+                        3,
+                        7,
+                        1
+                    ],
+                    "time": [
+                        66,
+                        80,
+                        68,
+                        83
+                    ],
+                    "sucessors": [
+                        38,
+                        39
+                    ]
+                },
+                {
+                    "id": 38,
+                    "rid": 38,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 3,
+                    "varnish": 1,
+                    "resources": [
+                        6,
+                        9,
+                        5
+                    ],
+                    "time": [
+                        86,
+                        80,
+                        87
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 39,
+                    "rid": 39,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 4,
+                    "varnish": 5,
+                    "resources": [
+                        1,
+                        2,
+                        5,
+                        4,
+                        8
+                    ],
+                    "time": [
+                        54,
+                        88,
+                        93,
+                        71,
+                        72
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "rid": 7,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 40,
+                    "rid": 40,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 0.66,
+                    "size": 6,
+                    "color": 3,
+                    "varnish": 1,
+                    "resources": [
+                        9,
+                        8,
+                        10,
+                        2
+                    ],
+                    "time": [
+                        80,
+                        93,
+                        90,
+                        84
+                    ],
+                    "sucessors": [
+                        42
+                    ]
+                },
+                {
+                    "id": 41,
+                    "rid": 41,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 2,
+                    "color": 4,
+                    "varnish": 3,
+                    "resources": [
+                        6,
+                        1,
+                        3,
+                        10,
+                        5,
+                        4
+                    ],
+                    "time": [
+                        39,
+                        75,
+                        35,
+                        41,
+                        45,
+                        90
+                    ],
+                    "sucessors": [
+                        44,
+                        43
+                    ]
+                },
+                {
+                    "id": 42,
+                    "rid": 42,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 3,
+                    "color": 3,
+                    "varnish": 6,
+                    "resources": [
+                        10,
+                        3,
+                        8,
+                        6
+                    ],
+                    "time": [
+                        49,
+                        54,
+                        86,
+                        51
+                    ],
+                    "sucessors": [
+                        44,
+                        43
+                    ]
+                },
+                {
+                    "id": 43,
+                    "rid": 43,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 2,
+                    "color": 2,
+                    "varnish": 5,
+                    "resources": [
+                        9,
+                        2,
+                        3,
+                        6,
+                        4,
+                        7,
+                        10
+                    ],
+                    "time": [
+                        67,
+                        88,
+                        55,
+                        71,
+                        80,
+                        73,
+                        59
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 44,
+                    "rid": 44,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 4,
+                    "varnish": 3,
+                    "resources": [
+                        6,
+                        1,
+                        10,
+                        8,
+                        3,
+                        2
+                    ],
+                    "time": [
+                        4,
+                        2,
+                        2,
+                        6,
+                        3,
+                        6
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "rid": 8,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 45,
+                    "rid": 45,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 1,
+                    "varnish": 4,
+                    "resources": [
+                        1,
+                        10,
+                        2
+                    ],
+                    "time": [
+                        96,
+                        97,
+                        95
+                    ],
+                    "sucessors": [
+                        48
+                    ]
+                },
+                {
+                    "id": 46,
+                    "rid": 46,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 2,
+                    "varnish": 5,
+                    "resources": [
+                        4,
+                        9,
+                        10
+                    ],
+                    "time": [
+                        88,
+                        54,
+                        36
+                    ],
+                    "sucessors": [
+                        48
+                    ]
+                },
+                {
+                    "id": 47,
+                    "rid": 47,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 4,
+                    "varnish": 4,
+                    "resources": [
+                        9,
+                        10,
+                        8,
+                        1,
+                        4
+                    ],
+                    "time": [
+                        21,
+                        54,
+                        60,
+                        29,
+                        32
+                    ],
+                    "sucessors": [
+                        48
+                    ]
+                },
+                {
+                    "id": 48,
+                    "rid": 48,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 2,
+                    "color": 1,
+                    "varnish": 1,
+                    "resources": [
+                        7,
+                        6,
+                        3,
+                        1
+                    ],
+                    "time": [
+                        99,
+                        83,
+                        90,
+                        81
+                    ],
+                    "sucessors": [
+                        49,
+                        50
+                    ]
+                },
+                {
+                    "id": 49,
+                    "rid": 49,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 4,
+                    "varnish": 6,
+                    "resources": [
+                        2,
+                        9,
+                        3,
+                        10
+                    ],
+                    "time": [
+                        98,
+                        95,
+                        97,
+                        96
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 50,
+                    "rid": 50,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 4,
+                    "varnish": 1,
+                    "resources": [
+                        5,
+                        2,
+                        10,
+                        1
+                    ],
+                    "time": [
+                        96,
+                        88,
+                        54,
+                        81
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "rid": 9,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 51,
+                    "rid": 51,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 4,
+                    "varnish": 6,
+                    "resources": [
+                        9,
+                        4,
+                        5,
+                        8,
+                        3,
+                        1
+                    ],
+                    "time": [
+                        76,
+                        87,
+                        78,
+                        73,
+                        52,
+                        59
+                    ],
+                    "sucessors": [
+                        52,
+                        53,
+                        54,
+                        55
+                    ]
+                },
+                {
+                    "id": 52,
+                    "rid": 52,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 3,
+                    "varnish": 2,
+                    "resources": [
+                        2,
+                        10,
+                        3,
+                        4,
+                        6,
+                        5,
+                        8
+                    ],
+                    "time": [
+                        13,
+                        7,
+                        20,
+                        12,
+                        10,
+                        16,
+                        10
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 53,
+                    "rid": 53,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 2,
+                    "varnish": 5,
+                    "resources": [
+                        4,
+                        9,
+                        2,
+                        7
+                    ],
+                    "time": [
+                        22,
+                        18,
+                        27,
+                        11
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 54,
+                    "rid": 54,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 7,
+                    "color": 1,
+                    "varnish": 5,
+                    "resources": [
+                        6,
+                        2,
+                        5,
+                        1,
+                        9,
+                        4
+                    ],
+                    "time": [
+                        90,
+                        87,
+                        90,
+                        55,
+                        83,
+                        49
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 55,
+                    "rid": 55,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 0.76,
+                    "size": 10,
+                    "color": 2,
+                    "varnish": 2,
+                    "resources": [
+                        2,
+                        8,
+                        1,
+                        7
+                    ],
+                    "time": [
+                        85,
+                        95,
+                        89,
+                        89
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "rid": 10,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 56,
+                    "rid": 56,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 4,
+                    "varnish": 3,
+                    "resources": [
+                        2,
+                        8,
+                        1,
+                        5,
+                        7,
+                        4,
+                        10
+                    ],
+                    "time": [
+                        9,
+                        9,
+                        8,
+                        8,
+                        3,
+                        9,
+                        4
+                    ],
+                    "sucessors": [
+                        58,
+                        59
+                    ]
+                },
+                {
+                    "id": 57,
+                    "rid": 57,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 2,
+                    "varnish": 3,
+                    "resources": [
+                        10,
+                        4,
+                        3,
+                        7,
+                        1
+                    ],
+                    "time": [
+                        3,
+                        3,
+                        2,
+                        4,
+                        5
+                    ],
+                    "sucessors": [
+                        60,
+                        61
+                    ]
+                },
+                {
+                    "id": 58,
+                    "rid": 58,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 3,
+                    "color": 1,
+                    "varnish": 1,
+                    "resources": [
+                        1,
+                        2,
+                        7,
+                        10,
+                        5
+                    ],
+                    "time": [
+                        96,
+                        99,
+                        97,
+                        96,
+                        98
+                    ],
+                    "sucessors": [
+                        61,
+                        60
+                    ]
+                },
+                {
+                    "id": 59,
+                    "rid": 59,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 3,
+                    "varnish": 6,
+                    "resources": [
+                        3,
+                        7,
+                        5
+                    ],
+                    "time": [
+                        46,
+                        73,
+                        44
+                    ],
+                    "sucessors": [
+                        61,
+                        60
+                    ]
+                },
+                {
+                    "id": 60,
+                    "rid": 60,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 3,
+                    "varnish": 1,
+                    "resources": [
+                        8,
+                        1,
+                        3,
+                        7,
+                        2,
+                        4,
+                        5
+                    ],
+                    "time": [
+                        10,
+                        7,
+                        15,
+                        13,
+                        10,
+                        7,
+                        19
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 61,
+                    "rid": 61,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 3,
+                    "varnish": 3,
+                    "resources": [
+                        8,
+                        2,
+                        7,
+                        5,
+                        1
+                    ],
+                    "time": [
+                        99,
+                        97,
+                        99,
+                        97,
+                        98
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "rid": 11,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 62,
+                    "rid": 62,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 3,
+                    "color": 2,
+                    "varnish": 2,
+                    "resources": [
+                        10,
+                        5,
+                        4
+                    ],
+                    "time": [
+                        91,
+                        38,
+                        73
+                    ],
+                    "sucessors": [
+                        64,
+                        63
+                    ]
+                },
+                {
+                    "id": 63,
+                    "rid": 63,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 2,
+                    "color": 1,
+                    "varnish": 3,
+                    "resources": [
+                        8,
+                        4,
+                        2,
+                        5,
+                        9,
+                        10,
+                        1
+                    ],
+                    "time": [
+                        98,
+                        90,
+                        84,
+                        84,
+                        76,
+                        93,
+                        64
+                    ],
+                    "sucessors": [
+                        65
+                    ]
+                },
+                {
+                    "id": 64,
+                    "rid": 64,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 1,
+                    "color": 3,
+                    "varnish": 1,
+                    "resources": [
+                        2,
+                        10,
+                        6,
+                        5,
+                        7,
+                        4,
+                        9
+                    ],
+                    "time": [
+                        25,
+                        37,
+                        31,
+                        66,
+                        47,
+                        67,
+                        66
+                    ],
+                    "sucessors": [
+                        65
+                    ]
+                },
+                {
+                    "id": 65,
+                    "rid": 65,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 4,
+                    "varnish": 4,
+                    "resources": [
+                        1,
+                        10,
+                        9
+                    ],
+                    "time": [
+                        17,
+                        30,
+                        41
+                    ],
+                    "sucessors": [
+                        66,
+                        67
+                    ]
+                },
+                {
+                    "id": 66,
+                    "rid": 66,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 4,
+                    "varnish": 5,
+                    "resources": [
+                        9,
+                        8,
+                        4,
+                        3,
+                        2
+                    ],
+                    "time": [
+                        99,
+                        97,
+                        64,
+                        81,
+                        68
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 67,
+                    "rid": 67,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        4,
+                        1,
+                        2,
+                        5,
+                        3,
+                        8,
+                        9
+                    ],
+                    "time": [
+                        52,
+                        80,
+                        44,
+                        87,
+                        73,
+                        44,
+                        50
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "rid": 12,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 68,
+                    "rid": 68,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 2,
+                    "varnish": 6,
+                    "resources": [
+                        7,
+                        4,
+                        2,
+                        8,
+                        3
+                    ],
+                    "time": [
+                        95,
+                        54,
+                        41,
+                        54,
+                        66
+                    ],
+                    "sucessors": [
+                        69,
+                        70,
+                        71
+                    ]
+                },
+                {
+                    "id": 69,
+                    "rid": 69,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 0.54,
+                    "size": 4,
+                    "color": 4,
+                    "varnish": 1,
+                    "resources": [
+                        2,
+                        1,
+                        6,
+                        5,
+                        4,
+                        9
+                    ],
+                    "time": [
+                        86,
+                        38,
+                        48,
+                        88,
+                        98,
+                        52
+                    ],
+                    "sucessors": [
+                        72
+                    ]
+                },
+                {
+                    "id": 70,
+                    "rid": 70,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 2,
+                    "varnish": 4,
+                    "resources": [
+                        6,
+                        1,
+                        3,
+                        4,
+                        8
+                    ],
+                    "time": [
+                        75,
+                        79,
+                        76,
+                        91,
+                        39
+                    ],
+                    "sucessors": [
+                        72
+                    ]
+                },
+                {
+                    "id": 71,
+                    "rid": 71,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 8,
+                    "color": 1,
+                    "varnish": 3,
+                    "resources": [
+                        7,
+                        3,
+                        2,
+                        6
+                    ],
+                    "time": [
+                        62,
+                        29,
+                        61,
+                        48
+                    ],
+                    "sucessors": [
+                        72
+                    ]
+                },
+                {
+                    "id": 72,
+                    "rid": 72,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 6,
+                    "color": 4,
+                    "varnish": 6,
+                    "resources": [
+                        10,
+                        4,
+                        2,
+                        6,
+                        5
+                    ],
+                    "time": [
+                        71,
+                        78,
+                        81,
+                        98,
+                        79
+                    ],
+                    "sucessors": [
+                        73,
+                        74
+                    ]
+                },
+                {
+                    "id": 73,
+                    "rid": 73,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 0.65,
+                    "size": 9,
+                    "color": 4,
+                    "varnish": 5,
+                    "resources": [
+                        8,
+                        5,
+                        3,
+                        10,
+                        6
+                    ],
+                    "time": [
+                        59,
+                        20,
+                        20,
+                        57,
+                        24
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 74,
+                    "rid": 74,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 10,
+                    "color": 3,
+                    "varnish": 6,
+                    "resources": [
+                        2,
+                        8,
+                        10,
+                        1,
+                        9,
+                        7
+                    ],
+                    "time": [
+                        92,
+                        77,
+                        87,
+                        88,
+                        86,
+                        93
+                    ],
+                    "sucessors": []
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "rid": 13,
+            "priority": 0,
+            "duedate": 0,
+            "topology": [
+                {
+                    "id": 75,
+                    "rid": 75,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 5,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        6,
+                        5,
+                        2,
+                        3,
+                        4
+                    ],
+                    "time": [
+                        36,
+                        32,
+                        42,
+                        40,
+                        16
+                    ],
+                    "sucessors": [
+                        77
+                    ]
+                },
+                {
+                    "id": 76,
+                    "rid": 76,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 7,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        9,
+                        3,
+                        6,
+                        5,
+                        8,
+                        2
+                    ],
+                    "time": [
+                        37,
+                        18,
+                        44,
+                        18,
+                        35,
+                        21
+                    ],
+                    "sucessors": [
+                        77
+                    ]
+                },
+                {
+                    "id": 77,
+                    "rid": 77,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 0.73,
+                    "size": 9,
+                    "color": 4,
+                    "varnish": 3,
+                    "resources": [
+                        5,
+                        1,
+                        8
+                    ],
+                    "time": [
+                        10,
+                        7,
+                        10
+                    ],
+                    "sucessors": [
+                        78,
+                        79
+                    ]
+                },
+                {
+                    "id": 78,
+                    "rid": 78,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 3,
+                    "varnish": 5,
+                    "resources": [
+                        9,
+                        2,
+                        4,
+                        7,
+                        10
+                    ],
+                    "time": [
+                        89,
+                        88,
+                        94,
+                        90,
+                        88
+                    ],
+                    "sucessors": []
+                },
+                {
+                    "id": 79,
+                    "rid": 79,
+                    "connection": 0,
+                    "starting": -1,
+                    "release": 0,
+                    "overlap": 1.0,
+                    "size": 4,
+                    "color": 1,
+                    "varnish": 5,
+                    "resources": [
+                        4,
+                        8,
+                        7,
+                        5
+                    ],
+                    "time": [
+                        67,
+                        24,
+                        66,
+                        25
+                    ],
+                    "sucessors": []
+                }
+            ]
+        }
+    ]
+}
